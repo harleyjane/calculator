@@ -1,0 +1,164 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+}
+
+#calculator {
+  height: 410px;
+  width: 300px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dfd8d0;
+  border: 2px solid #908b85;
+  border-radius: 20px;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+#title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ee0579;
+}
+
+#entrybox {
+  width: 85%;
+  height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #b4b39d;
+  border-radius: 6px;
+  background-color: #c3c2ab;
+}
+
+#entry {
+  margin-right: 10px;
+  font-size: 35px;
+}
+
+#buttons {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  width: 280px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  background-color: #3a3a3a;
+  margin: 0 4px 10px 8px;
+  height: 40px;
+  width: 50px;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+}
+
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+.row {
+  margin-top: 20px
+}
+
+#topAdjust {
+  margin-top: -52px;
+}
+
+#equalButton {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: -50px;
+  height: 90px;
+}
+
+#zeroButton {
+  width: 117px;
+}
+
+.red {
+  font-size: 14px;
+  background-color: #ee0579;
+  box-shadow: 0px 3px 0px 0px #ee0579;
+}
+
+
+button,
+button:hover,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: white;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+#history {
+  /*transform: translate(-13px, -17px);*/
+  position: relative;
+  height: 10px;
+  bottom: 17px;
+  margin-right: 14px;
+  color: #8b8b7b;
+  font-size: 12px;
+}
+.buttoncalc {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  bottom: 9%;
+  left: 46%;
+  padding: 9px 9px;
+  border: 1px solid #2347c1;
+  border-radius: 8px;
+  background: #074082;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4285ff), to(#2347c1));
+  background: -moz-linear-gradient(top, #4285ff, #2347c1);
+  background: linear-gradient(to bottom, #4285ff, #2347c1);
+  -webkit-box-shadow: #4fa0ff -1px 0px 0px 0px;
+  -moz-box-shadow: #4fa0ff -1px 0px 0px 0px;
+  box-shadow: #4fa0ff -1px 0px 0px 0px;
+  text-shadow: #152a72 1px 1px 1px;
+  font: normal normal bold 11px verdana;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase
+}
+
+.button:hover {
+  border: 1px solid ##2953e3;
+  background: #4fa0ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4fa0ff), to(#2a55e8));
+  background: -moz-linear-gradient(top, #4fa0ff, #2a55e8);
+  background: linear-gradient(to bottom, #4fa0ff, #2a55e8);
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase
+}
+
+.button:active {
+  background: #2347c1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2347c1), to(#2347c1));
+  background: -moz-linear-gradient(top, #2347c1, #2347c1);
+  background: linear-gradient(to bottom, #2347c1, #2347c1);
+  text-transform: uppercase
+}
+
+.button:focus {
+  text-transform: uppercase;
+  color: white;
+}
